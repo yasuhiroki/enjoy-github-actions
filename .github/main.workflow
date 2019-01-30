@@ -1,9 +1,9 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["docker://jessfraz/branch-cleanup-action"]
+  resolves = ["jessfraz/branch-cleanup-action@master"]
 }
 
-action "docker://jessfraz/branch-cleanup-action" {
-  uses = "docker://jessfraz/branch-cleanup-action"
+action "jessfraz/branch-cleanup-action@master" {
+  uses = "jessfraz/branch-cleanup-action@master"
   secrets = ["GITHUB_TOKEN"]
 }
