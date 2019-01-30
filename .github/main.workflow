@@ -1,6 +1,6 @@
 workflow "New workflow" {
-  on = "push"
   resolves = ["jessfraz/branch-cleanup-action@master"]
+  on = "pull_request"
 }
 
 action "jessfraz/branch-cleanup-action@master" {
