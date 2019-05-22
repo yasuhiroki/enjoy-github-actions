@@ -1,9 +1,9 @@
 workflow "New workflow" {
-  on = "pull_request"
-  resolves = ["SvanBoxel/delete-merged-branch"]
+    resolves = ["jessfraz/branch-cleanup-action@master"]
+    on = "pull_request"
 }
 
-action "SvanBoxel/delete-merged-branch" {
-  uses = "SvanBoxel/delete-merged-branch@v1.3.2"
-  secrets = ["GITHUB_TOKEN"]
+action "jessfraz/branch-cleanup-action@master" {
+    uses = "jessfraz/branch-cleanup-action@master"
+    secrets = ["GITHUB_TOKEN"]
 }
