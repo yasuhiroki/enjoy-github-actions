@@ -2,4 +2,3 @@ exclude:
   - develop*
   - staging*
   - master*
-  - release*
