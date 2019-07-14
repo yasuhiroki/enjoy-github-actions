@@ -12,5 +12,5 @@ action "jessfraz/branch-cleanup-action@master" {
 }
 
 action "yasuhiroki/github-actions-helloworld" {
-  uses = "yasuhiroki/github-actions-helloworld"
+  uses = "yasuhiroki/github-actions-helloworld@master"
 }
