@@ -41,4 +41,16 @@ action "SvanBoxel/delete-merged-branch" {
 
 だが Action が InProgress のまま動く気配がない。
 
+## `--autosquash` 用の commit メッセージのマージを防ぎたい
+
+```workflow
+workflow "New workflow" {
+  on = "pull_request"
+  resolves = ["yasuhiroki/github-actions-guard-autosquash-commit"]
+}
+
+action "yasuhiroki/github-actions-guard-autosquash-commit" {
+  uses = "yasuhiroki/github-actions-guard-autosquash-commit@master"
+}
+```
 
