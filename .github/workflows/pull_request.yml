@@ -1,0 +1,12 @@
+on: pull_request
+name: New workflow
+jobs:
+  build:
+    name: jessfraz/branch-cleanup-action@master
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: jessfraz/branch-cleanup-action@master
+      uses: jessfraz/branch-cleanup-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
