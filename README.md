@@ -1,5 +1,12 @@
 # メモ
 
+## GITHUB_EVENT
+
+GitHub Actions 実行時の情報が `${GITHUB_EVENT_PATH}` のファイルに格納されている.  
+`cat ${GITHUB_EVENT_PATH} | jq` などとすれば取れる.
+
+ex) [github_event.json](github_event.json)
+
 ## マージ済みのブランチを消したい
 
 最初に試したのは https://github.com/jessfraz/branch-cleanup-action 
@@ -34,4 +41,16 @@ action "SvanBoxel/delete-merged-branch" {
 
 だが Action が InProgress のまま動く気配がない。
 
+## `--autosquash` 用の commit メッセージのマージを防ぎたい
+
+```workflow
+workflow "New workflow" {
+  on = "pull_request"
+  resolves = ["yasuhiroki/github-actions-guard-autosquash-commit"]
+}
+
+action "yasuhiroki/github-actions-guard-autosquash-commit" {
+  uses = "yasuhiroki/github-actions-guard-autosquash-commit@master"
+}
+```
 
