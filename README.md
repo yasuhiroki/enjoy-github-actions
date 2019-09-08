@@ -1,5 +1,9 @@
 # メモ
 
+---
+
+# GitHub Actions HCL 版のメモ
+
 ## GITHUB_EVENT
 
 GitHub Actions 実行時の情報が `${GITHUB_EVENT_PATH}` のファイルに格納されている.  
