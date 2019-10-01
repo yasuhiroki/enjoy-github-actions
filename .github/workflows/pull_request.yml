@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: branch-cleanup
-      if: github.event.action == 'merged'
       uses: jessfraz/branch-cleanup-action@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
