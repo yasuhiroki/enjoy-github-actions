@@ -1,9 +1,9 @@
-on: pull_request
-name: pull_request event
+on: issue_comment
+name: issue_comment event
 jobs:
   build:
     name: test
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: echo pull_request
+        run: echo issue_comment

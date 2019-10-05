@@ -1,9 +1,9 @@
-on: pull_request
-name: pull_request event
+on: project_card
+name: project_card event
 jobs:
   build:
     name: test
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: echo pull_request
+        run: echo project_card
