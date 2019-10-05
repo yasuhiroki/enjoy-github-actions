@@ -1,0 +1,9 @@
+on: repository_dispatch
+name: repository_dispatch event
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo repository_dispatch

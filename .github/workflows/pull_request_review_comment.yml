@@ -1,0 +1,9 @@
+on: pull_request_review_comment
+name: pull_request_review_comment event
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo pull_request_review_comment

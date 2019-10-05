@@ -1,0 +1,9 @@
+on: pull_request_review
+name: pull_request_review event
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo pull_request_review
