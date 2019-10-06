@@ -11,4 +11,9 @@ jobs:
       - name: event
         run: |
           cat $GITHUB_EVENT_PATH | jq .
-
+      - name: add-path
+        run: |
+          echo ::add-path::/yasuhiroki
+      - name: env
+        run: |
+          env | sort
