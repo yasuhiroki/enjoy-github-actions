@@ -5,5 +5,9 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     steps:
-      - name: test
-        run: echo pull_request_review_comment
+      - name: env
+        run: |
+          env | sort
+      - name: event
+        run: |
+          cat $GITHUB_EVENT_PATH | jq .
