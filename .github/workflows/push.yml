@@ -17,3 +17,11 @@ jobs:
       - name: env
         run: |
           env | sort
+      - name: debug (false)
+        run: |
+          echo ::debug::debug log
+      - name: debug (true)
+        env:
+          ACTIONS_STEP_DEBUG: true
+        run: |
+          echo ::debug::debug log
