@@ -17,3 +17,12 @@ jobs:
       - name: env
         run: |
           env | sort
+      - name: debug (false)
+        run: |
+          echo ::debug::debug log false
+      - name: debug (true)
+        env:
+          # This env is not working, GitHub Actions debug log become possible by Secrets in Settings
+          ACTIONS_STEP_DEBUG: true
+        run: |
+          echo ::debug::debug log true
