@@ -1,0 +1,28 @@
+name: Parallel
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    steps:
+    - name: Echo
+      run: |
+        mkdir -p out
+        echo ${{ matrix.node }} > out/${{ matrix.node }}.txt
+    - name: Upload
+      uses: actions/upload-artifact@master
+      with:
+        name: out
+        path: out
+    - name: Download
+      uses: actions/download-artifact@master
+      with:
+        name: out
+    - name: Print
+      run: |
+        ls out
+        cat out/*
