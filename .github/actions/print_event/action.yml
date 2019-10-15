@@ -1,0 +1,10 @@
+# こんな風に steps を共通化できたらいいな...
+name: 'Print Event Data'
+description: 'Print GitHub Actions Event Data'
+runs:
+  - name: env
+    run: |
+      env | sort
+  - name: event
+    run: |
+      cat $GITHUB_EVENT_PATH | jq .
