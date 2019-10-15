@@ -4,10 +4,19 @@ jobs:
   command:
     runs-on: ubuntu-latest
     steps:
+      - name: print env
+        run: |
+          env | sort
       - name: add-path
         run: |
           echo ::add-path::/yasuhiroki
-      - name: env
+      - name: set-env
+        run: |
+          echo ::set-env name=NOW::$(date)
+      - name: echo $NOW
+        run: |
+          echo $NOW
+      - name: print env
         run: |
           env | sort
       - name: debug (false)
