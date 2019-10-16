@@ -1,3 +1,6 @@
+[![Push Event Status](https://github.com/yasuhiroki/enjoy-github-actions/workflows/push%20event/badge.svg)](https://github.com/yasuhiroki/enjoy-github-actions/actions)
+
+
 # メモ
 
 ## 公式 Actions
