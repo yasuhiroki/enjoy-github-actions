@@ -1,0 +1,51 @@
+on: push
+name: commit and push
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          ref: gh-pages
+      - name: commit
+        run: |
+          echo ::set-env name=CUR_SHA::$(git log -n1 --format=format:%H)
+      # - name: push
+      #   run: |
+      #     git push origin gh-pages
+      - uses: actions/github-script@master
+        with:
+          debug: true
+          github-token: ${{github.token}}
+          script: |
+            let tree = await github.git.createTree({
+              owner: 'yasuhiroki',
+              repo: 'enjoy-github-actions',
+              base_tree: process.env["CUR_SHA"],
+              tree: [{
+                path: `${context.sha}/github_event.json`,
+                mode: "100644",
+                content: JSON.stringify(context)
+              }]
+            })
+            let commit = await github.git.createCommit({
+              owner: 'yasuhiroki',
+              repo: 'enjoy-github-actions',
+              message: `Add github_event.json of ${context.sha}`,
+              tree: tree.data.sha,
+              parents: [process.env["CUR_SHA"]]
+            })
+            let push = await github.git.updateRef({
+              owner: 'yasuhiroki',
+              repo: 'enjoy-github-actions',
+              ref: 'heads/gh-pages',
+              sha: commit.data.sha
+            })
+      - uses: actions/github-script@master
+        with:
+          debug: true
+          github-token: ${{github.token}}
+          script: |
+            github.repos.createCommitComment({owner: 'yasuhiroki', repo: 'enjoy-github-actions', commit_sha: context.sha, body: `:eyes: https://yasuhiroki.github.io/enjoy-github-actions/${context.sha}/github_event.json`})
+
