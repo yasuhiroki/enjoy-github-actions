@@ -1,40 +1,35 @@
-on: push
-name: Playground
+on: playground
+name: event playground
 jobs:
-  command:
+  build:
+    name: test
     runs-on: ubuntu-latest
     steps:
-      - name: print env
-        run: |
-          env | sort
-      - name: add-path
-        run: |
-          echo ::add-path::/yasuhiroki
-      - name: set-env
-        run: |
-          echo ::set-env name=NOW::$(date)
-      - name: echo $NOW
-        run: |
-          echo $NOW
-      - name: print env
-        run: |
-          env | sort
-      - name: debug (false)
-        run: |
-          echo ::debug::debug log false
-      - name: debug (true)
+      - name: env
+        run: env | sort
+      - name: event
+        run: cat $GITHUB_EVENT_PATH | jq .
+      - name: Dump GitHub context
         env:
-          # This env is not working, GitHub Actions debug log become possible by Secrets in Settings
-          ACTIONS_STEP_DEBUG: true
-        run: |
-          echo ::debug::debug log true
-  script:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/github-script@master
-      with:
-        debug: true
-        github-token: ${{github.token}}
-        script: |
-          github.repos.createCommitComment({owner: 'yasuhiroki', repo: 'enjoy-github-actions', commit_sha: context.sha, body: "hoge"})
-
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+      - name: Dump job context
+        env:
+          JOB_CONTEXT: ${{ toJson(job) }}
+        run: echo "$JOB_CONTEXT"
+      - name: Dump steps context
+        env:
+          STEPS_CONTEXT: ${{ toJson(steps) }}
+        run: echo "$STEPS_CONTEXT"
+      - name: Dump runner context
+        env:
+          RUNNER_CONTEXT: ${{ toJson(runner) }}
+        run: echo "$RUNNER_CONTEXT"
+      - name: Dump strategy context
+        env:
+          STRATEGY_CONTEXT: ${{ toJson(strategy) }}
+        run: echo "$STRATEGY_CONTEXT"
+      - name: Dump matrix context
+        env:
+          MATRIX_CONTEXT: ${{ toJson(matrix) }}
+        run: echo "$MATRIX_CONTEXT"
