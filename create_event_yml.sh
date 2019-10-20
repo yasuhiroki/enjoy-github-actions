@@ -36,5 +36,5 @@ watch \
 
 for _e in ${event_list[@]}
 do
-  cat .github/event_base.yml | sed "s/EVENT_NAME/${_e}/g" > ".github/workflows/${_e}.yml"
+  cat .github/event_base.yml | sed "s/EVENT_NAME/${_e}/g" > ".github/workflows/event_${_e}.yml"
 done
