@@ -16,20 +16,15 @@ label \
 member \
 milestone \
 page_build \
-playground \
 project \
 project_card \
 project_column \
 public \
-pull_request-branch_cleanup \
 pull_request \
 pull_request_review \
 pull_request_review_comment \
 push \
-release-management \
 repository_dispatch \
-schedule \
-stale \
 status \
 watch \
 )

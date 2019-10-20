@@ -1,0 +1,40 @@
+on: push
+name: Playground
+jobs:
+  command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print env
+        run: |
+          env | sort
+      - name: add-path
+        run: |
+          echo ::add-path::/yasuhiroki
+      - name: set-env
+        run: |
+          echo ::set-env name=NOW::$(date)
+      - name: echo $NOW
+        run: |
+          echo $NOW
+      - name: print env
+        run: |
+          env | sort
+      - name: debug (false)
+        run: |
+          echo ::debug::debug log false
+      - name: debug (true)
+        env:
+          # This env is not working, GitHub Actions debug log become possible by Secrets in Settings
+          ACTIONS_STEP_DEBUG: true
+        run: |
+          echo ::debug::debug log true
+  script:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/github-script@master
+      with:
+        debug: true
+        github-token: ${{github.token}}
+        script: |
+          github.repos.createCommitComment({owner: 'yasuhiroki', repo: 'enjoy-github-actions', commit_sha: context.sha, body: "hoge"})
+
