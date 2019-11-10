@@ -10,7 +10,9 @@
     "@actions/io": "^1.0.1",
     "@actions/tool-cache": "^1.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

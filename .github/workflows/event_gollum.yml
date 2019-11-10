@@ -1,17 +1,14 @@
-on: push
-name: push event
+on: gollum
+name: event gollum
 jobs:
   build:
     name: test
     runs-on: ubuntu-latest
     steps:
       - name: env
-        run: |
-          env | sort
+        run: env | sort
       - name: event
-        run: |
-          cat $GITHUB_EVENT_PATH | jq .
-
+        run: cat $GITHUB_EVENT_PATH | jq .
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
