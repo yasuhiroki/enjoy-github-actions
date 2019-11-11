@@ -1,8 +1,8 @@
 ```
 {
-  "token": "v1.3b13324ab399322d3ec2fa58ebdbc94055f9d4c4",
+  "token": "v1.aa7d867ab2e8d862c87c000154edc9707eeba9d8",
   "ref": "refs/heads/master",
-  "sha": "12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b",
+  "sha": "1c937e5f8ffad0cb429dfec97b62c2b2e5a12494",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
   "actor": "yasuhiroki",
@@ -11,9 +11,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b",
+    "after": "1c937e5f8ffad0cb429dfec97b62c2b2e5a12494",
     "base_ref": null,
-    "before": "15a2e1052a781e558938cc176b306be57cc4a885",
+    "before": "12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b",
     "commits": [
       {
         "author": {
@@ -27,17 +27,17 @@
           "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b",
-        "message": "Use git push command instead of API",
-        "timestamp": "2019-11-12T00:03:44+09:00",
-        "tree_id": "5a9f8387f98a66a95bfc299f75ea720bf340c5eb",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b"
+        "id": "1c937e5f8ffad0cb429dfec97b62c2b2e5a12494",
+        "message": "Update README about GitHub pages in public repository",
+        "timestamp": "2019-11-12T00:32:40+09:00",
+        "tree_id": "287ce3182e845ec9e063c29b4692567e561cb147",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/1c937e5f8ffad0cb429dfec97b62c2b2e5a12494"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/15a2e1052a78...12cdb6b8e1f9",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/12cdb6b8e1f9...1c937e5f8ffa",
     "created": false,
     "deleted": false,
-    "forced": true,
+    "forced": false,
     "head_commit": {
       "author": {
         "email": "yasuhiroki.duck@gmail.com",
@@ -50,11 +50,11 @@
         "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b",
-      "message": "Use git push command instead of API",
-      "timestamp": "2019-11-12T00:03:44+09:00",
-      "tree_id": "5a9f8387f98a66a95bfc299f75ea720bf340c5eb",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/12cdb6b8e1f96aa3700feaa31f35a69887a7bf1b"
+      "id": "1c937e5f8ffad0cb429dfec97b62c2b2e5a12494",
+      "message": "Update README about GitHub pages in public repository",
+      "timestamp": "2019-11-12T00:32:40+09:00",
+      "tree_id": "287ce3182e845ec9e063c29b4692567e561cb147",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/1c937e5f8ffad0cb429dfec97b62c2b2e5a12494"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -140,7 +140,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1573484630,
+      "pushed_at": 1573486366,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
       "size": 87,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
@@ -154,7 +154,7 @@
       "tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/tags",
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2019-11-11T14:59:35Z",
+      "updated_at": "2019-11-11T15:03:52Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "watchers": 1,
       "watchers_count": 1
