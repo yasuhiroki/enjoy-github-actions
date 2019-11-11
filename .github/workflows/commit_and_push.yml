@@ -9,16 +9,24 @@ jobs:
         with:
           ref: gh-pages
       - name: commit
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
           echo ::set-env name=CUR_SHA::$(git log -n1 --format=format:%H)
-      # - name: push
-      #   run: |
-      #     git push origin gh-pages
+          echo '```' > github_event.md
+          echo "$GITHUB_CONTEXT" | jq . >> github_event.md
+          echo '```' >> github_event.md
+          git add github_event.md
+          git -c user.name=gh-pages -c user.email=github@users.noreply.github.com commit -m "update"
+      - name: push
+        run: |
+          git push 'https://yasuhiroki:${{ secrets.GITHUB_TOKEN }}@github.com/yasuhiroki/enjoy-github-actions.git' gh-pages:gh-pages
       - uses: actions/github-script@master
         with:
           debug: true
           github-token: ${{github.token}}
           script: |
+            /*
             let tree = await github.git.createTree({
               owner: 'yasuhiroki',
               repo: 'enjoy-github-actions',
@@ -55,3 +63,4 @@ jobs:
               body: `:eyes: https://yasuhiroki.github.io/enjoy-github-actions/github_event.md ${commit.data.sha}`
             })
             console.log(comment);
+            */
