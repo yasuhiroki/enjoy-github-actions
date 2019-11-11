@@ -27,3 +27,9 @@ https://github.com/search?q=path%3A.github%2Fworkflows&type=Code
 
 `::debug::` コマンドはこのログに追記するためのコマンド.
 `env` に `ACTIONS_STEP_DEBUG: true` と書いても意味がないことに注意.
+
+## GitHub pages
+
+Public Repository では GitHub Actions の `GITHUB_TOKEN` によって GitHub pages を更新することはできない.
+
+> https://twitter.com/piris314/status/1193758293149155328
