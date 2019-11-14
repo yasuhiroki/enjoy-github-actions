@@ -3,7 +3,6 @@
 event_list=(\
 check_run \
 check_suite \
-commit_comment \
 create \
 delete \
 deployment \
