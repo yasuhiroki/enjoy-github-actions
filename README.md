@@ -13,7 +13,7 @@ https://github.com/search?q=path%3A.github%2Fworkflows&type=Code
 
 ## ::add-path:: コマンド
 
-コマンドが反映されるのは移行のステップ.  
+コマンドが反映されるのは以降のステップ.  
 また PATH の先頭に追加される.
 
 [同じrun内では反映されていない](https://github.com/yasuhiroki/enjoy-github-actions/commit/90e86550ce93058731e029b1a4e8bf5c374bbc19/checks?check_suite_id=253494226)  
@@ -25,7 +25,7 @@ https://github.com/search?q=path%3A.github%2Fworkflows&type=Code
 
 ![image](https://user-images.githubusercontent.com/3108110/66326748-817d8880-e964-11e9-8ff2-1243f7a178ca.png)
 
-`::debug::` コマンドはこのログに追記するためのコマンド.
+`::debug::` コマンドはこのログに追記するためのコマンド.  
 `env` に `ACTIONS_STEP_DEBUG: true` と書いても意味がないことに注意.
 
 ## GitHub pages
