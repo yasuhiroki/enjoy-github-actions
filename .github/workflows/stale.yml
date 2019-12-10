@@ -9,5 +9,7 @@ jobs:
     - uses: actions/stale@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'stale issue'
+        stale-pr-message: 'stale pull request'
         days-before-stale: 1
         days-before-close: 1
