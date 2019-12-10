@@ -1,8 +1,8 @@
 ```
 {
-  "token": "v1.7fde0a7d8247976b2f4a0ef8117bfb05648875cb",
+  "token": "v1.31bd60da674cef98c7831817c5c42d6c3b133ea0",
   "ref": "refs/heads/master",
-  "sha": "09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62",
+  "sha": "b2c3b1269c97a36c7e126420200cc64be0c377cc",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
   "actor": "yasuhiroki",
@@ -11,9 +11,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62",
+    "after": "b2c3b1269c97a36c7e126420200cc64be0c377cc",
     "base_ref": null,
-    "before": "124fe39eec8c4ab0672bb624dbc8cf3c48e81fa6",
+    "before": "09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62",
     "commits": [
       {
         "author": {
@@ -22,19 +22,19 @@
           "username": "yasuhiroki"
         },
         "committer": {
-          "email": "noreply@github.com",
-          "name": "GitHub",
-          "username": "web-flow"
+          "email": "yasuhiroki.duck@gmail.com",
+          "name": "yasuhiroki",
+          "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62",
-        "message": "Fix typo",
-        "timestamp": "2019-12-01T23:42:30+09:00",
-        "tree_id": "b6fa38cc82da9d68cda232ee3457140f8c7dd302",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62"
+        "id": "b2c3b1269c97a36c7e126420200cc64be0c377cc",
+        "message": "Fix stale config\n\nmessage を設定しないと動かない仕様だった",
+        "timestamp": "2019-12-10T23:52:33+09:00",
+        "tree_id": "c1c156c4dcb351052dce0a6143cbe356fd9e05a2",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/b2c3b1269c97a36c7e126420200cc64be0c377cc"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/124fe39eec8c...09ba9f3d0d21",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/09ba9f3d0d21...b2c3b1269c97",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -45,16 +45,16 @@
         "username": "yasuhiroki"
       },
       "committer": {
-        "email": "noreply@github.com",
-        "name": "GitHub",
-        "username": "web-flow"
+        "email": "yasuhiroki.duck@gmail.com",
+        "name": "yasuhiroki",
+        "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62",
-      "message": "Fix typo",
-      "timestamp": "2019-12-01T23:42:30+09:00",
-      "tree_id": "b6fa38cc82da9d68cda232ee3457140f8c7dd302",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/09ba9f3d0d21f656e12fd8a1f16bf5da75ed9e62"
+      "id": "b2c3b1269c97a36c7e126420200cc64be0c377cc",
+      "message": "Fix stale config\n\nmessage を設定しないと動かない仕様だった",
+      "timestamp": "2019-12-10T23:52:33+09:00",
+      "tree_id": "c1c156c4dcb351052dce0a6143cbe356fd9e05a2",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/b2c3b1269c97a36c7e126420200cc64be0c377cc"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -140,9 +140,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1575211351,
+      "pushed_at": 1575989560,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 91,
+      "size": 93,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -154,7 +154,7 @@
       "tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/tags",
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2019-11-14T17:02:32Z",
+      "updated_at": "2019-12-01T14:42:33Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "watchers": 3,
       "watchers_count": 3
