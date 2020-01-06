@@ -1,0 +1,12 @@
+name: command ::error
+
+on: [pull_request]
+
+jobs:
+  command:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: ::error
+      run: |
+        echo "::error file=.github/workflows/command-error.yml,line=1,col=1::error message"
