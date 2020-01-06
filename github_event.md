@@ -1,8 +1,8 @@
 ```
 {
-  "token": "v1.123e0d14d96cf7ac33b76a806c6dbfb38a489848",
-  "ref": "refs/heads/master",
-  "sha": "722fe4452d50f0aded1639d7800a28f985162eb4",
+  "token": "v1.ffc12e39ac373c91413568fc0ac86587a99df281",
+  "ref": "refs/heads/command-error",
+  "sha": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
   "actor": "yasuhiroki",
@@ -11,9 +11,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "722fe4452d50f0aded1639d7800a28f985162eb4",
+    "after": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
     "base_ref": null,
-    "before": "b1bd6c78f87a27bb2e8204ff0655768d3933173a",
+    "before": "0000000000000000000000000000000000000000",
     "commits": [
       {
         "author": {
@@ -27,17 +27,17 @@
           "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "722fe4452d50f0aded1639d7800a28f985162eb4",
-        "message": "Add yaml for testing matrix container specify only image version",
-        "timestamp": "2020-01-06T21:42:42+09:00",
-        "tree_id": "dea59229cfd30c58f280efff13633d2292189ef9",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/722fe4452d50f0aded1639d7800a28f985162eb4"
+        "id": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
+        "message": "Run ::error with option",
+        "timestamp": "2020-01-07T00:11:54+09:00",
+        "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb482e7ae135a80b169709b95fb3df2"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/b1bd6c78f87a...722fe4452d50",
-    "created": false,
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb4",
+    "created": true,
     "deleted": false,
-    "forced": true,
+    "forced": false,
     "head_commit": {
       "author": {
         "email": "yasuhiroki.duck@gmail.com",
@@ -50,17 +50,17 @@
         "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "722fe4452d50f0aded1639d7800a28f985162eb4",
-      "message": "Add yaml for testing matrix container specify only image version",
-      "timestamp": "2020-01-06T21:42:42+09:00",
-      "tree_id": "dea59229cfd30c58f280efff13633d2292189ef9",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/722fe4452d50f0aded1639d7800a28f985162eb4"
+      "id": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
+      "message": "Run ::error with option",
+      "timestamp": "2020-01-07T00:11:54+09:00",
+      "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb482e7ae135a80b169709b95fb3df2"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
       "name": "yasuhiroki"
     },
-    "ref": "refs/heads/master",
+    "ref": "refs/heads/command-error",
     "repository": {
       "archive_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/{archive_format}{/ref}",
       "archived": false,
@@ -140,9 +140,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1578314581,
+      "pushed_at": 1578323521,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 97,
+      "size": 104,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -154,7 +154,7 @@
       "tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/tags",
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2020-01-06T12:39:57Z",
+      "updated_at": "2020-01-06T12:43:03Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "watchers": 3,
       "watchers_count": 3
