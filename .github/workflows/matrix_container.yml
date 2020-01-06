@@ -1,0 +1,14 @@
+on: push
+name: matrix container
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        image: [ 'ruby:2.5', 'ruby:2.6' ]
+    container:
+      image: ${{ matrix.image }}
+    steps:
+      - name: ruby version
+        run: ruby -v
