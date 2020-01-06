@@ -1,8 +1,8 @@
 ```
 {
-  "token": "v1.40bddc0b75fefb18181a24101c253c7263889c20",
+  "token": "v1.123e0d14d96cf7ac33b76a806c6dbfb38a489848",
   "ref": "refs/heads/master",
-  "sha": "b1bd6c78f87a27bb2e8204ff0655768d3933173a",
+  "sha": "722fe4452d50f0aded1639d7800a28f985162eb4",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
   "actor": "yasuhiroki",
@@ -11,9 +11,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "b1bd6c78f87a27bb2e8204ff0655768d3933173a",
+    "after": "722fe4452d50f0aded1639d7800a28f985162eb4",
     "base_ref": null,
-    "before": "7ee8d2b6afe769ff15082dd434fdb2c42a469e08",
+    "before": "b1bd6c78f87a27bb2e8204ff0655768d3933173a",
     "commits": [
       {
         "author": {
@@ -27,32 +27,14 @@
           "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "398248fc883558c2c8a63c6788046248132d5bf5",
-        "message": "Add sample yaml matrix container",
-        "timestamp": "2020-01-06T21:39:48+09:00",
-        "tree_id": "24d75fc993493fe7ffba7c7e64369ba46c5af894",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/398248fc883558c2c8a63c6788046248132d5bf5"
-      },
-      {
-        "author": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
-        },
-        "committer": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
-        },
-        "distinct": true,
-        "id": "b1bd6c78f87a27bb2e8204ff0655768d3933173a",
+        "id": "722fe4452d50f0aded1639d7800a28f985162eb4",
         "message": "Add yaml for testing matrix container specify only image version",
-        "timestamp": "2020-01-06T21:39:48+09:00",
-        "tree_id": "6c26f141fff5b6b2aec1fe10845d73234118ab18",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/b1bd6c78f87a27bb2e8204ff0655768d3933173a"
+        "timestamp": "2020-01-06T21:42:42+09:00",
+        "tree_id": "dea59229cfd30c58f280efff13633d2292189ef9",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/722fe4452d50f0aded1639d7800a28f985162eb4"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/7ee8d2b6afe7...b1bd6c78f87a",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/b1bd6c78f87a...722fe4452d50",
     "created": false,
     "deleted": false,
     "forced": true,
@@ -68,11 +50,11 @@
         "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "b1bd6c78f87a27bb2e8204ff0655768d3933173a",
+      "id": "722fe4452d50f0aded1639d7800a28f985162eb4",
       "message": "Add yaml for testing matrix container specify only image version",
-      "timestamp": "2020-01-06T21:39:48+09:00",
-      "tree_id": "6c26f141fff5b6b2aec1fe10845d73234118ab18",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/b1bd6c78f87a27bb2e8204ff0655768d3933173a"
+      "timestamp": "2020-01-06T21:42:42+09:00",
+      "tree_id": "dea59229cfd30c58f280efff13633d2292189ef9",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/722fe4452d50f0aded1639d7800a28f985162eb4"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -158,7 +140,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1578314394,
+      "pushed_at": 1578314581,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
       "size": 97,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
@@ -172,7 +154,7 @@
       "tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/tags",
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2020-01-06T12:35:51Z",
+      "updated_at": "2020-01-06T12:39:57Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "watchers": 3,
       "watchers_count": 3
