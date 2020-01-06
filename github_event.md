@@ -1,8 +1,8 @@
 ```
 {
-  "token": "v1.ffc12e39ac373c91413568fc0ac86587a99df281",
-  "ref": "refs/heads/command-error",
-  "sha": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
+  "token": "v1.268e86a6200a1dc525c31e8435be32f809106414",
+  "ref": "refs/heads/master",
+  "sha": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
   "actor": "yasuhiroki",
@@ -11,9 +11,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
+    "after": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
     "base_ref": null,
-    "before": "0000000000000000000000000000000000000000",
+    "before": "722fe4452d50f0aded1639d7800a28f985162eb4",
     "commits": [
       {
         "author": {
@@ -26,16 +26,34 @@
           "name": "yasuhiroki",
           "username": "yasuhiroki"
         },
-        "distinct": true,
+        "distinct": false,
         "id": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
         "message": "Run ::error with option",
         "timestamp": "2020-01-07T00:11:54+09:00",
         "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
         "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb482e7ae135a80b169709b95fb3df2"
+      },
+      {
+        "author": {
+          "email": "yasuhiroki.duck@gmail.com",
+          "name": "yasuhiroki",
+          "username": "yasuhiroki"
+        },
+        "committer": {
+          "email": "noreply@github.com",
+          "name": "GitHub",
+          "username": "web-flow"
+        },
+        "distinct": true,
+        "id": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
+        "message": "Merge pull request #25 from yasuhiroki/command-error\n\nRun ::error with option",
+        "timestamp": "2020-01-07T00:15:04+09:00",
+        "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb4",
-    "created": true,
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/722fe4452d50...e7b6a9752a68",
+    "created": false,
     "deleted": false,
     "forced": false,
     "head_commit": {
@@ -45,22 +63,22 @@
         "username": "yasuhiroki"
       },
       "committer": {
-        "email": "yasuhiroki.duck@gmail.com",
-        "name": "yasuhiroki",
-        "username": "yasuhiroki"
+        "email": "noreply@github.com",
+        "name": "GitHub",
+        "username": "web-flow"
       },
       "distinct": true,
-      "id": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
-      "message": "Run ::error with option",
-      "timestamp": "2020-01-07T00:11:54+09:00",
+      "id": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
+      "message": "Merge pull request #25 from yasuhiroki/command-error\n\nRun ::error with option",
+      "timestamp": "2020-01-07T00:15:04+09:00",
       "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb482e7ae135a80b169709b95fb3df2"
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
       "name": "yasuhiroki"
     },
-    "ref": "refs/heads/command-error",
+    "ref": "refs/heads/master",
     "repository": {
       "archive_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/{archive_format}{/ref}",
       "archived": false,
@@ -140,7 +158,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1578323521,
+      "pushed_at": 1578323706,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
       "size": 104,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
