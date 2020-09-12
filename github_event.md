@@ -1,43 +1,29 @@
 ```
 {
-  "token": "v1.268e86a6200a1dc525c31e8435be32f809106414",
-  "ref": "refs/heads/master",
-  "sha": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
+  "token": "v1.23fbf5aef98bb3dc54d8b16d82d5e0bac321e604",
+  "job": "build",
+  "ref": "refs/heads/dependabot/npm_and_yarn/node-fetch-2.6.1",
+  "sha": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
   "repository": "yasuhiroki/enjoy-github-actions",
+  "repository_owner": "yasuhiroki",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "actor": "yasuhiroki",
+  "run_id": "251097896",
+  "run_number": "29",
+  "actor": "dependabot[bot]",
   "workflow": "commit and push",
   "head_ref": "",
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
+    "after": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
     "base_ref": null,
-    "before": "722fe4452d50f0aded1639d7800a28f985162eb4",
+    "before": "0000000000000000000000000000000000000000",
     "commits": [
       {
         "author": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
-        },
-        "committer": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
-        },
-        "distinct": false,
-        "id": "ebd8957e8eb482e7ae135a80b169709b95fb3df2",
-        "message": "Run ::error with option",
-        "timestamp": "2020-01-07T00:11:54+09:00",
-        "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ebd8957e8eb482e7ae135a80b169709b95fb3df2"
-      },
-      {
-        "author": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "name": "dependabot[bot]",
+          "username": "dependabot[bot]"
         },
         "committer": {
           "email": "noreply@github.com",
@@ -45,22 +31,22 @@
           "username": "web-flow"
         },
         "distinct": true,
-        "id": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
-        "message": "Merge pull request #25 from yasuhiroki/command-error\n\nRun ::error with option",
-        "timestamp": "2020-01-07T00:15:04+09:00",
-        "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb"
+        "id": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
+        "message": "Bump node-fetch from 2.6.0 to 2.6.1\n\nBumps [node-fetch](https://github.com/bitinn/node-fetch) from 2.6.0 to 2.6.1.\n- [Release notes](https://github.com/bitinn/node-fetch/releases)\n- [Changelog](https://github.com/node-fetch/node-fetch/blob/master/docs/CHANGELOG.md)\n- [Commits](https://github.com/bitinn/node-fetch/compare/v2.6.0...v2.6.1)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2020-09-12T09:17:19Z",
+        "tree_id": "5d3828b42e7220c8ba323d29cdb4c5de36db3332",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/88ab8aa4abaa9938c74900ae7a4887a753d2e4c4"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/722fe4452d50...e7b6a9752a68",
-    "created": false,
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/commit/88ab8aa4abaa",
+    "created": true,
     "deleted": false,
     "forced": false,
     "head_commit": {
       "author": {
-        "email": "yasuhiroki.duck@gmail.com",
-        "name": "yasuhiroki",
-        "username": "yasuhiroki"
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "name": "dependabot[bot]",
+        "username": "dependabot[bot]"
       },
       "committer": {
         "email": "noreply@github.com",
@@ -68,17 +54,17 @@
         "username": "web-flow"
       },
       "distinct": true,
-      "id": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
-      "message": "Merge pull request #25 from yasuhiroki/command-error\n\nRun ::error with option",
-      "timestamp": "2020-01-07T00:15:04+09:00",
-      "tree_id": "b270fbb1b079e68b0a98ab44998056dc2312c711",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb"
+      "id": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
+      "message": "Bump node-fetch from 2.6.0 to 2.6.1\n\nBumps [node-fetch](https://github.com/bitinn/node-fetch) from 2.6.0 to 2.6.1.\n- [Release notes](https://github.com/bitinn/node-fetch/releases)\n- [Changelog](https://github.com/node-fetch/node-fetch/blob/master/docs/CHANGELOG.md)\n- [Commits](https://github.com/bitinn/node-fetch/compare/v2.6.0...v2.6.1)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "timestamp": "2020-09-12T09:17:19Z",
+      "tree_id": "5d3828b42e7220c8ba323d29cdb4c5de36db3332",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/88ab8aa4abaa9938c74900ae7a4887a753d2e4c4"
     },
     "pusher": {
-      "email": "yasuhiroki.duck@gmail.com",
-      "name": "yasuhiroki"
+      "email": null,
+      "name": "dependabot[bot]"
     },
-    "ref": "refs/heads/master",
+    "ref": "refs/heads/dependabot/npm_and_yarn/node-fetch-2.6.1",
     "repository": {
       "archive_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/{archive_format}{/ref}",
       "archived": false,
@@ -158,9 +144,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1578323706,
+      "pushed_at": 1599902240,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 104,
+      "size": 108,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -172,34 +158,36 @@
       "tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/tags",
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2020-01-06T12:43:03Z",
+      "updated_at": "2020-01-06T15:15:08Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "watchers": 3,
       "watchers_count": 3
     },
     "sender": {
-      "avatar_url": "https://avatars0.githubusercontent.com/u/3108110?v=4",
-      "events_url": "https://api.github.com/users/yasuhiroki/events{/privacy}",
-      "followers_url": "https://api.github.com/users/yasuhiroki/followers",
-      "following_url": "https://api.github.com/users/yasuhiroki/following{/other_user}",
-      "gists_url": "https://api.github.com/users/yasuhiroki/gists{/gist_id}",
+      "avatar_url": "https://avatars0.githubusercontent.com/in/29110?v=4",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
       "gravatar_id": "",
-      "html_url": "https://github.com/yasuhiroki",
-      "id": 3108110,
-      "login": "yasuhiroki",
-      "node_id": "MDQ6VXNlcjMxMDgxMTA=",
-      "organizations_url": "https://api.github.com/users/yasuhiroki/orgs",
-      "received_events_url": "https://api.github.com/users/yasuhiroki/received_events",
-      "repos_url": "https://api.github.com/users/yasuhiroki/repos",
+      "html_url": "https://github.com/apps/dependabot",
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
       "site_admin": false,
-      "starred_url": "https://api.github.com/users/yasuhiroki/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/yasuhiroki/subscriptions",
-      "type": "User",
-      "url": "https://api.github.com/users/yasuhiroki"
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "type": "Bot",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D"
     }
   },
+  "server_url": "https://github.com",
+  "api_url": "https://api.github.com",
+  "graphql_url": "https://api.github.com/graphql",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
-  "action": "run1",
-  "event_path": "/home/runner/work/_temp/_github_workflow/event.json"
+  "action": "run1"
 }
 ```
