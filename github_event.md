@@ -1,21 +1,22 @@
 ```
 {
-  "token": "v1.23fbf5aef98bb3dc54d8b16d82d5e0bac321e604",
+  "token": "v1.3335af7d38c13d094f89d4ca42303c20a6d8c0f1",
   "job": "build",
-  "ref": "refs/heads/dependabot/npm_and_yarn/node-fetch-2.6.1",
-  "sha": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
+  "ref": "refs/heads/dependabot/npm_and_yarn/actions/core-1.2.6",
+  "sha": "d7641d66ce96a161397811a7654b0e502a414103",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "251097896",
-  "run_number": "29",
+  "run_id": "282804656",
+  "run_number": "30",
+  "retention_days": "90",
   "actor": "dependabot[bot]",
   "workflow": "commit and push",
   "head_ref": "",
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
+    "after": "d7641d66ce96a161397811a7654b0e502a414103",
     "base_ref": null,
     "before": "0000000000000000000000000000000000000000",
     "commits": [
@@ -31,14 +32,14 @@
           "username": "web-flow"
         },
         "distinct": true,
-        "id": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
-        "message": "Bump node-fetch from 2.6.0 to 2.6.1\n\nBumps [node-fetch](https://github.com/bitinn/node-fetch) from 2.6.0 to 2.6.1.\n- [Release notes](https://github.com/bitinn/node-fetch/releases)\n- [Changelog](https://github.com/node-fetch/node-fetch/blob/master/docs/CHANGELOG.md)\n- [Commits](https://github.com/bitinn/node-fetch/compare/v2.6.0...v2.6.1)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "timestamp": "2020-09-12T09:17:19Z",
-        "tree_id": "5d3828b42e7220c8ba323d29cdb4c5de36db3332",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/88ab8aa4abaa9938c74900ae7a4887a753d2e4c4"
+        "id": "d7641d66ce96a161397811a7654b0e502a414103",
+        "message": "Bump @actions/core from 1.1.3 to 1.2.6\n\nBumps [@actions/core](https://github.com/actions/toolkit/tree/HEAD/packages/core) from 1.1.3 to 1.2.6.\n- [Release notes](https://github.com/actions/toolkit/releases)\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/core/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/core)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2020-10-01T17:21:25Z",
+        "tree_id": "96a99de59b4877b0da2afd6dc4b3c7f9836b02db",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d7641d66ce96a161397811a7654b0e502a414103"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/commit/88ab8aa4abaa",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d7641d66ce96",
     "created": true,
     "deleted": false,
     "forced": false,
@@ -54,17 +55,17 @@
         "username": "web-flow"
       },
       "distinct": true,
-      "id": "88ab8aa4abaa9938c74900ae7a4887a753d2e4c4",
-      "message": "Bump node-fetch from 2.6.0 to 2.6.1\n\nBumps [node-fetch](https://github.com/bitinn/node-fetch) from 2.6.0 to 2.6.1.\n- [Release notes](https://github.com/bitinn/node-fetch/releases)\n- [Changelog](https://github.com/node-fetch/node-fetch/blob/master/docs/CHANGELOG.md)\n- [Commits](https://github.com/bitinn/node-fetch/compare/v2.6.0...v2.6.1)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-      "timestamp": "2020-09-12T09:17:19Z",
-      "tree_id": "5d3828b42e7220c8ba323d29cdb4c5de36db3332",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/88ab8aa4abaa9938c74900ae7a4887a753d2e4c4"
+      "id": "d7641d66ce96a161397811a7654b0e502a414103",
+      "message": "Bump @actions/core from 1.1.3 to 1.2.6\n\nBumps [@actions/core](https://github.com/actions/toolkit/tree/HEAD/packages/core) from 1.1.3 to 1.2.6.\n- [Release notes](https://github.com/actions/toolkit/releases)\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/core/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/core)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "timestamp": "2020-10-01T17:21:25Z",
+      "tree_id": "96a99de59b4877b0da2afd6dc4b3c7f9836b02db",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d7641d66ce96a161397811a7654b0e502a414103"
     },
     "pusher": {
       "email": null,
       "name": "dependabot[bot]"
     },
-    "ref": "refs/heads/dependabot/npm_and_yarn/node-fetch-2.6.1",
+    "ref": "refs/heads/dependabot/npm_and_yarn/actions/core-1.2.6",
     "repository": {
       "archive_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/{archive_format}{/ref}",
       "archived": false,
@@ -144,9 +145,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1599902240,
+      "pushed_at": 1601572886,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 108,
+      "size": 111,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -188,6 +189,9 @@
   "api_url": "https://api.github.com",
   "graphql_url": "https://api.github.com/graphql",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
-  "action": "run1"
+  "action": "run1",
+  "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_0df5595a-3dc3-4d30-ad3a-350f4f6f45e0",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_0df5595a-3dc3-4d30-ad3a-350f4f6f45e0"
 }
 ```
