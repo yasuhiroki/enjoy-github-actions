@@ -1,71 +1,71 @@
 ```
 {
-  "token": "v1.3335af7d38c13d094f89d4ca42303c20a6d8c0f1",
+  "token": "v1.2c429dc1f1f6bdf0e1711e9c64f7b862495b5fea",
   "job": "build",
-  "ref": "refs/heads/dependabot/npm_and_yarn/actions/core-1.2.6",
-  "sha": "d7641d66ce96a161397811a7654b0e502a414103",
+  "ref": "refs/heads/master",
+  "sha": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "282804656",
-  "run_number": "30",
+  "run_id": "359307660",
+  "run_number": "31",
   "retention_days": "90",
-  "actor": "dependabot[bot]",
+  "actor": "yasuhiroki",
   "workflow": "commit and push",
   "head_ref": "",
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "d7641d66ce96a161397811a7654b0e502a414103",
+    "after": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
     "base_ref": null,
-    "before": "0000000000000000000000000000000000000000",
+    "before": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
     "commits": [
       {
         "author": {
-          "email": "49699333+dependabot[bot]@users.noreply.github.com",
-          "name": "dependabot[bot]",
-          "username": "dependabot[bot]"
+          "email": "yasuhiroki.duck@gmail.com",
+          "name": "yasuhiroki",
+          "username": "yasuhiroki"
         },
         "committer": {
-          "email": "noreply@github.com",
-          "name": "GitHub",
-          "username": "web-flow"
+          "email": "yasuhiroki.duck@gmail.com",
+          "name": "yasuhiroki",
+          "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "d7641d66ce96a161397811a7654b0e502a414103",
-        "message": "Bump @actions/core from 1.1.3 to 1.2.6\n\nBumps [@actions/core](https://github.com/actions/toolkit/tree/HEAD/packages/core) from 1.1.3 to 1.2.6.\n- [Release notes](https://github.com/actions/toolkit/releases)\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/core/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/core)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "timestamp": "2020-10-01T17:21:25Z",
-        "tree_id": "96a99de59b4877b0da2afd6dc4b3c7f9836b02db",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d7641d66ce96a161397811a7654b0e502a414103"
+        "id": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
+        "message": "Change release-drafeter action organization",
+        "timestamp": "2020-11-12T17:48:21+09:00",
+        "tree_id": "b57b3136bf18bafbebb68f563da4da8c003b6886",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/023ba17188be1bb348438ad22ff6e1604a4d6e86"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d7641d66ce96",
-    "created": true,
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/e7b6a9752a68...023ba17188be",
+    "created": false,
     "deleted": false,
     "forced": false,
     "head_commit": {
       "author": {
-        "email": "49699333+dependabot[bot]@users.noreply.github.com",
-        "name": "dependabot[bot]",
-        "username": "dependabot[bot]"
+        "email": "yasuhiroki.duck@gmail.com",
+        "name": "yasuhiroki",
+        "username": "yasuhiroki"
       },
       "committer": {
-        "email": "noreply@github.com",
-        "name": "GitHub",
-        "username": "web-flow"
+        "email": "yasuhiroki.duck@gmail.com",
+        "name": "yasuhiroki",
+        "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "d7641d66ce96a161397811a7654b0e502a414103",
-      "message": "Bump @actions/core from 1.1.3 to 1.2.6\n\nBumps [@actions/core](https://github.com/actions/toolkit/tree/HEAD/packages/core) from 1.1.3 to 1.2.6.\n- [Release notes](https://github.com/actions/toolkit/releases)\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/core/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/core)\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-      "timestamp": "2020-10-01T17:21:25Z",
-      "tree_id": "96a99de59b4877b0da2afd6dc4b3c7f9836b02db",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d7641d66ce96a161397811a7654b0e502a414103"
+      "id": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
+      "message": "Change release-drafeter action organization",
+      "timestamp": "2020-11-12T17:48:21+09:00",
+      "tree_id": "b57b3136bf18bafbebb68f563da4da8c003b6886",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/023ba17188be1bb348438ad22ff6e1604a4d6e86"
     },
     "pusher": {
-      "email": null,
-      "name": "dependabot[bot]"
+      "email": "yasuhiroki.duck@gmail.com",
+      "name": "yasuhiroki"
     },
-    "ref": "refs/heads/dependabot/npm_and_yarn/actions/core-1.2.6",
+    "ref": "refs/heads/master",
     "repository": {
       "archive_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/{archive_format}{/ref}",
       "archived": false,
@@ -145,9 +145,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1601572886,
+      "pushed_at": 1605170910,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 111,
+      "size": 112,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -165,24 +165,24 @@
       "watchers_count": 3
     },
     "sender": {
-      "avatar_url": "https://avatars0.githubusercontent.com/in/29110?v=4",
-      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
-      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3108110?v=4",
+      "events_url": "https://api.github.com/users/yasuhiroki/events{/privacy}",
+      "followers_url": "https://api.github.com/users/yasuhiroki/followers",
+      "following_url": "https://api.github.com/users/yasuhiroki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yasuhiroki/gists{/gist_id}",
       "gravatar_id": "",
-      "html_url": "https://github.com/apps/dependabot",
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "node_id": "MDM6Qm90NDk2OTkzMzM=",
-      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
-      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
-      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "html_url": "https://github.com/yasuhiroki",
+      "id": 3108110,
+      "login": "yasuhiroki",
+      "node_id": "MDQ6VXNlcjMxMDgxMTA=",
+      "organizations_url": "https://api.github.com/users/yasuhiroki/orgs",
+      "received_events_url": "https://api.github.com/users/yasuhiroki/received_events",
+      "repos_url": "https://api.github.com/users/yasuhiroki/repos",
       "site_admin": false,
-      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
-      "type": "Bot",
-      "url": "https://api.github.com/users/dependabot%5Bbot%5D"
+      "starred_url": "https://api.github.com/users/yasuhiroki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yasuhiroki/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/yasuhiroki"
     }
   },
   "server_url": "https://github.com",
@@ -191,7 +191,9 @@
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "run1",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_0df5595a-3dc3-4d30-ad3a-350f4f6f45e0",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_0df5595a-3dc3-4d30-ad3a-350f4f6f45e0"
+  "action_repository": "actions/checkout",
+  "action_ref": "v1",
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_100bedc5-1fdd-4647-809a-6a1507066072",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_100bedc5-1fdd-4647-809a-6a1507066072"
 }
 ```
