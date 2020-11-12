@@ -1,14 +1,14 @@
 ```
 {
-  "token": "v1.2c429dc1f1f6bdf0e1711e9c64f7b862495b5fea",
+  "token": "v1.8369603dda64d378d8ec15eb167f31e3a34dc0a2",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
+  "sha": "45473635785baf5452d1483c765d294ee4c3b7ae",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "359307660",
-  "run_number": "31",
+  "run_id": "359369410",
+  "run_number": "32",
   "retention_days": "90",
   "actor": "yasuhiroki",
   "workflow": "commit and push",
@@ -16,9 +16,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
+    "after": "45473635785baf5452d1483c765d294ee4c3b7ae",
     "base_ref": null,
-    "before": "e7b6a9752a684ba7ae789f43da3524f0d7cf0eeb",
+    "before": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
     "commits": [
       {
         "author": {
@@ -32,14 +32,14 @@
           "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
-        "message": "Change release-drafeter action organization",
-        "timestamp": "2020-11-12T17:48:21+09:00",
-        "tree_id": "b57b3136bf18bafbebb68f563da4da8c003b6886",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/023ba17188be1bb348438ad22ff6e1604a4d6e86"
+        "id": "45473635785baf5452d1483c765d294ee4c3b7ae",
+        "message": "Add release-drafter config file\n\nFix build error of https://github.com/yasuhiroki/enjoy-github-actions/runs/1389442152",
+        "timestamp": "2020-11-12T18:29:42+09:00",
+        "tree_id": "ee5a8f531bb59f3ab7d77f6c3859453ad0179a2a",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/45473635785baf5452d1483c765d294ee4c3b7ae"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/e7b6a9752a68...023ba17188be",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/023ba17188be...45473635785b",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -55,11 +55,11 @@
         "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "023ba17188be1bb348438ad22ff6e1604a4d6e86",
-      "message": "Change release-drafeter action organization",
-      "timestamp": "2020-11-12T17:48:21+09:00",
-      "tree_id": "b57b3136bf18bafbebb68f563da4da8c003b6886",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/023ba17188be1bb348438ad22ff6e1604a4d6e86"
+      "id": "45473635785baf5452d1483c765d294ee4c3b7ae",
+      "message": "Add release-drafter config file\n\nFix build error of https://github.com/yasuhiroki/enjoy-github-actions/runs/1389442152",
+      "timestamp": "2020-11-12T18:29:42+09:00",
+      "tree_id": "ee5a8f531bb59f3ab7d77f6c3859453ad0179a2a",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/45473635785baf5452d1483c765d294ee4c3b7ae"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -145,7 +145,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1605170910,
+      "pushed_at": 1605173393,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
       "size": 112,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
@@ -159,7 +159,7 @@
       "tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/tags",
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2020-01-06T15:15:08Z",
+      "updated_at": "2020-11-12T08:48:32Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "watchers": 3,
       "watchers_count": 3
@@ -193,7 +193,7 @@
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "actions/checkout",
   "action_ref": "v1",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_100bedc5-1fdd-4647-809a-6a1507066072",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_100bedc5-1fdd-4647-809a-6a1507066072"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_0707d77d-9372-4511-a0b6-5824ca2267f7",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_0707d77d-9372-4511-a0b6-5824ca2267f7"
 }
 ```
