@@ -9,6 +9,6 @@ jobs:
   update_draft_release:
     runs-on: ubuntu-latest
     steps:
-      - uses: toolmantim/release-drafter@master
+      - uses: release-drafter/release-drafter@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
