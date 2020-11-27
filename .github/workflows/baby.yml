@@ -9,4 +9,7 @@ jobs:
   cry:
     runs-on: ubuntu-latest
     steps:
-      - run: :;
+      - run: ;
+  sleep:
+    runs-on: ubuntu-latest
+    needs: [ cry ]
