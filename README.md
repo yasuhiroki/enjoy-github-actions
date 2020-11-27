@@ -13,6 +13,9 @@ https://github.com/search?q=path%3A.github%2Fworkflows&type=Code
 
 ## ::add-path:: コマンド
 
+※ 非推奨のコマンド
+https://github.blog/changelog/2020-10-01-github-actions-deprecating-set-env-and-add-path-commands/
+
 コマンドが反映されるのは以降のステップ.  
 また PATH の先頭に追加される.
 
