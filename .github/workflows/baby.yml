@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  泣く:
+  cry:
     runs-on: ubuntu-latest
     steps:
       - run: :;
