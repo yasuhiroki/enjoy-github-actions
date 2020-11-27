@@ -1,0 +1,26 @@
+name: Baby
+
+on:
+  push:
+    branches: [ baby ]
+  workflow_dispatch:
+
+jobs:
+  cry:
+    runs-on: ubuntu-latest
+    outputs:
+      baby: cry
+    steps:
+      - run: :;
+  eat:
+    runs-on: ubuntu-latest
+    needs: [ cry ]
+    outputs:
+      baby: cry eat
+    steps:
+      - run: echo "${{ needs.cry.outputs.baby }}" ;
+  sleep:
+    runs-on: ubuntu-latest
+    needs: [ eat ]
+    steps:
+      - run: echo "${{ needs.eat.outputs.baby }}" ;
