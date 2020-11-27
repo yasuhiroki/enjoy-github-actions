@@ -6,11 +6,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  泣く:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: 泣く
-        run: echo 泣く
-      - name: 寝る
-        run: echo 寝る
