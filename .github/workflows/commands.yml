@@ -1,5 +1,5 @@
 on: push
-name: Playground
+name: commands
 jobs:
   command:
     runs-on: ubuntu-latest
