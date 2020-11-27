@@ -1,0 +1,16 @@
+name: Baby
+
+on:
+  push:
+    branches: [ baby ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 泣く
+        run: echo 泣く
+      - name: 寝る
+        run: echo 寝る
