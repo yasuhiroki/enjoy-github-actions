@@ -9,58 +9,12 @@ jobs:
         with:
           ref: gh-pages
       - name: commit
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
         run: |
-          echo ::set-env name=CUR_SHA::$(git log -n1 --format=format:%H)
           echo '```' > github_event.md
-          echo "$GITHUB_CONTEXT" | jq . >> github_event.md
+          echo '${{toJson(github)}}' | jq . >> github_event.md
           echo '```' >> github_event.md
           git add github_event.md
           git -c user.name=gh-pages -c user.email=github@users.noreply.github.com commit -m "update"
       - name: push
         run: |
           git push 'https://yasuhiroki:${{ secrets.GITHUB_TOKEN }}@github.com/yasuhiroki/enjoy-github-actions.git' gh-pages:gh-pages
-      - uses: actions/github-script@master
-        with:
-          debug: true
-          github-token: ${{github.token}}
-          script: |
-            /*
-            let tree = await github.git.createTree({
-              owner: 'yasuhiroki',
-              repo: 'enjoy-github-actions',
-              base_tree: process.env["CUR_SHA"],
-              tree: [{
-                path: `github_event.md`,
-                mode: "100644",
-                content: "```json\n" + JSON.stringify(context, null, 2) + "\n```\n"
-              }]
-            })
-            console.log(tree);
-
-            let commit = await github.git.createCommit({
-              owner: 'yasuhiroki',
-              repo: 'enjoy-github-actions',
-              message: `Update github_event.md of ${context.sha}`,
-              tree: tree.data.sha,
-              parents: [process.env["CUR_SHA"]]
-            })
-            console.log(commit);
-
-            let push = await github.git.updateRef({
-              owner: 'yasuhiroki',
-              repo: 'enjoy-github-actions',
-              ref: 'heads/gh-pages',
-              sha: commit.data.sha
-            })
-            console.log(push);
-
-            let comment = github.repos.createCommitComment({
-              owner: 'yasuhiroki',
-              repo: 'enjoy-github-actions',
-              commit_sha: context.sha,
-              body: `:eyes: https://yasuhiroki.github.io/enjoy-github-actions/github_event.md ${commit.data.sha}`
-            })
-            console.log(comment);
-            */
