@@ -8,9 +8,15 @@ jobs:
         run: |
           env | sort
       - name: add-path
+        env:
+          # ::add-path:: command is disabled by default
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: |
           echo ::add-path::/yasuhiroki
       - name: set-env
+        env:
+          # ::set-env:: command is disabled by default
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: |
           echo ::set-env name=NOW::$(date)
       - name: echo $NOW
@@ -28,13 +34,3 @@ jobs:
           ACTIONS_STEP_DEBUG: true
         run: |
           echo ::debug::debug log true
-  script:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/github-script@master
-      with:
-        debug: true
-        github-token: ${{github.token}}
-        script: |
-          github.repos.createCommitComment({owner: 'yasuhiroki', repo: 'enjoy-github-actions', commit_sha: context.sha, body: "hoge"})
-
