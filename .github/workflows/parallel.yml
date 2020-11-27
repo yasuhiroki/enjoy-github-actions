@@ -36,5 +36,6 @@ jobs:
         name: out
     - name: Print
       run: |
+        ls
         ls out
         cat out/*
