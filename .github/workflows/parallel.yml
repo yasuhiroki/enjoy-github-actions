@@ -1,6 +1,8 @@
 name: Parallel
 
-on: [push]
+on:
+  push:
+    branches: [ baby ]
 
 jobs:
   build:
@@ -34,6 +36,7 @@ jobs:
       uses: actions/download-artifact@master
       with:
         name: out
+        path: out
     - name: Print
       run: |
         ls
