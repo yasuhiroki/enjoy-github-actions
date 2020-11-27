@@ -2,7 +2,7 @@ name: Parallel
 
 on:
   push:
-    branches: [ baby ]
+    branches: [ master ]
 
 jobs:
   build:
