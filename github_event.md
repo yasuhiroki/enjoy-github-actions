@@ -1,19 +1,20 @@
 ```
 {
-  "token": "ghs_y9IYX91XW4D79xXAkeqtciXSQ2u1Z800fWbl",
+  "token": "ghs_XGhNg194kl4iPE85CqXbXO2KaZ7TJn3rjqbU",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "6957913b11d9249c93673eabec553d83599de9b7",
+  "sha": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "2953143519",
-  "run_number": "55",
+  "run_id": "5527339451",
+  "run_number": "57",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
   "repository_visibility": "public",
+  "repo-self-hosted-runners-disabled": false,
   "repository_id": "168330342",
   "actor_id": "3108110",
   "actor": "yasuhiroki",
@@ -23,9 +24,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "6957913b11d9249c93673eabec553d83599de9b7",
+    "after": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
     "base_ref": null,
-    "before": "de9c371c47bc146e4c575a0df26d207679b95d68",
+    "before": "6957913b11d9249c93673eabec553d83599de9b7",
     "commits": [
       {
         "author": {
@@ -39,11 +40,11 @@
           "username": "web-flow"
         },
         "distinct": false,
-        "id": "d8a4edf18db1f4c5de6aeae54a8de8829162af5f",
-        "message": "Bump @actions/core from 1.2.6 to 1.9.1\n\nBumps [@actions/core](https://github.com/actions/toolkit/tree/HEAD/packages/core) from 1.2.6 to 1.9.1.\n- [Release notes](https://github.com/actions/toolkit/releases)\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/core/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/core)\n\n---\nupdated-dependencies:\n- dependency-name: \"@actions/core\"\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "timestamp": "2022-08-18T19:16:09Z",
-        "tree_id": "9ef02275304051e0387ca647595018a29fc0090e",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/d8a4edf18db1f4c5de6aeae54a8de8829162af5f"
+        "id": "37c136185e1bee9d156600d9b9540a6cabdd4236",
+        "message": "Bump semver from 5.7.1 to 5.7.2\n\nBumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.\n- [Release notes](https://github.com/npm/node-semver/releases)\n- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)\n- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)\n\n---\nupdated-dependencies:\n- dependency-name: semver\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2023-07-12T01:21:32Z",
+        "tree_id": "58657e1f326bb7e1249541513225fcb5557fee55",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/37c136185e1bee9d156600d9b9540a6cabdd4236"
       },
       {
         "author": {
@@ -57,14 +58,14 @@
           "username": "web-flow"
         },
         "distinct": true,
-        "id": "6957913b11d9249c93673eabec553d83599de9b7",
-        "message": "Merge pull request #29 from yasuhiroki/dependabot/npm_and_yarn/actions/core-1.9.1\n\nBump @actions/core from 1.2.6 to 1.9.1",
-        "timestamp": "2022-08-30T11:32:55+09:00",
-        "tree_id": "9ef02275304051e0387ca647595018a29fc0090e",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/6957913b11d9249c93673eabec553d83599de9b7"
+        "id": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
+        "message": "Merge pull request #30 from yasuhiroki/dependabot/npm_and_yarn/semver-5.7.2\n\nBump semver from 5.7.1 to 5.7.2",
+        "timestamp": "2023-07-12T12:46:19+09:00",
+        "tree_id": "58657e1f326bb7e1249541513225fcb5557fee55",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/5810e5cbe1588f21af8abd6c6514c4d4d5fee880"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/de9c371c47bc...6957913b11d9",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/6957913b11d9...5810e5cbe158",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -80,11 +81,11 @@
         "username": "web-flow"
       },
       "distinct": true,
-      "id": "6957913b11d9249c93673eabec553d83599de9b7",
-      "message": "Merge pull request #29 from yasuhiroki/dependabot/npm_and_yarn/actions/core-1.9.1\n\nBump @actions/core from 1.2.6 to 1.9.1",
-      "timestamp": "2022-08-30T11:32:55+09:00",
-      "tree_id": "9ef02275304051e0387ca647595018a29fc0090e",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/6957913b11d9249c93673eabec553d83599de9b7"
+      "id": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
+      "message": "Merge pull request #30 from yasuhiroki/dependabot/npm_and_yarn/semver-5.7.2\n\nBump semver from 5.7.1 to 5.7.2",
+      "timestamp": "2023-07-12T12:46:19+09:00",
+      "tree_id": "58657e1f326bb7e1249541513225fcb5557fee55",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/5810e5cbe1588f21af8abd6c6514c4d4d5fee880"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -121,6 +122,7 @@
       "git_refs_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/refs{/sha}",
       "git_tags_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/tags{/sha}",
       "git_url": "git://github.com/yasuhiroki/enjoy-github-actions.git",
+      "has_discussions": false,
       "has_downloads": true,
       "has_issues": true,
       "has_pages": true,
@@ -172,9 +174,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1661826775,
+      "pushed_at": 1689133580,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 120,
+      "size": 130,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -222,13 +224,17 @@
   "ref_protected": false,
   "ref_type": "branch",
   "secret_source": "Actions",
+  "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
+  "workflow_sha": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "__run",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_7c26cade-61e9-4468-9af4-ffa650d177a1",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_7c26cade-61e9-4468-9af4-ffa650d177a1",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_7c26cade-61e9-4468-9af4-ffa650d177a1"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_c2efcd74-f439-4f96-8832-98f462c926a4",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_c2efcd74-f439-4f96-8832-98f462c926a4",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_c2efcd74-f439-4f96-8832-98f462c926a4",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_c2efcd74-f439-4f96-8832-98f462c926a4",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_c2efcd74-f439-4f96-8832-98f462c926a4"
 }
 ```
