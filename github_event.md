@@ -1,15 +1,15 @@
 ```
 {
-  "token": "ghs_mmqrX1KBYxalhKuobLCnZcyTazNTnF3v0o2k",
+  "token": "ghs_n4aGgnZA61S6SoJgoR6APtIO39wSgZ31BUeC",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
+  "sha": "c26bdb33cd2470addcc0f91535522bc7b90b7911",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "8579628762",
-  "run_number": "58",
+  "run_id": "8579656923",
+  "run_number": "59",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -25,9 +25,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
+    "after": "c26bdb33cd2470addcc0f91535522bc7b90b7911",
     "base_ref": null,
-    "before": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
+    "before": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
     "commits": [
       {
         "author": {
@@ -41,14 +41,14 @@
           "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
-        "message": "test environment variable",
-        "timestamp": "2024-04-06T16:28:53+09:00",
-        "tree_id": "507592a917e22a85fb5bb468dd8a77393a5cb7ef",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/bc6ef4f62c0f636d56fa8d2aa135e81a3747852b"
+        "id": "c26bdb33cd2470addcc0f91535522bc7b90b7911",
+        "message": "fixup! test environment variable",
+        "timestamp": "2024-04-06T16:31:50+09:00",
+        "tree_id": "30588b2838ad203a79cf43b9a9f7eddf56fb9dc5",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c26bdb33cd2470addcc0f91535522bc7b90b7911"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/5810e5cbe158...bc6ef4f62c0f",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/bc6ef4f62c0f...c26bdb33cd24",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -64,11 +64,11 @@
         "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
-      "message": "test environment variable",
-      "timestamp": "2024-04-06T16:28:53+09:00",
-      "tree_id": "507592a917e22a85fb5bb468dd8a77393a5cb7ef",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/bc6ef4f62c0f636d56fa8d2aa135e81a3747852b"
+      "id": "c26bdb33cd2470addcc0f91535522bc7b90b7911",
+      "message": "fixup! test environment variable",
+      "timestamp": "2024-04-06T16:31:50+09:00",
+      "tree_id": "30588b2838ad203a79cf43b9a9f7eddf56fb9dc5",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c26bdb33cd2470addcc0f91535522bc7b90b7911"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -157,7 +157,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1712388556,
+      "pushed_at": 1712388864,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
       "size": 133,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
@@ -208,16 +208,16 @@
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
-  "workflow_sha": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
+  "workflow_sha": "c26bdb33cd2470addcc0f91535522bc7b90b7911",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "__run",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_1bfb0e9d-937d-4acb-b74e-2376dd01aba4"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_045d795e-4959-466d-837f-ce39b94f2c8e",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_045d795e-4959-466d-837f-ce39b94f2c8e",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_045d795e-4959-466d-837f-ce39b94f2c8e",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_045d795e-4959-466d-837f-ce39b94f2c8e",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_045d795e-4959-466d-837f-ce39b94f2c8e"
 }
 ```
