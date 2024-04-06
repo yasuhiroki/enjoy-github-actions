@@ -1,0 +1,16 @@
+on: push
+name: environemnt variables
+
+env:
+  NEW_ENV: value
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: env
+        run: echo ${{ env }}
+      - name: custom environment variable
+        run: echo env.NEW_ENV = ${{ env.NEW_ENV }} env[NEW_ENV] = ${{ env[NEW_ENV] }} \$NEW_ENV = $NEW_ENV
+
