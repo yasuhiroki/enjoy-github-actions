@@ -1,15 +1,15 @@
 ```
 {
-  "token": "ghs_lpNWzSSE4yD4Is9SDnhLty6vg506vU3aiRZr",
+  "token": "ghs_j1Xa4Z0EzJBiZ14RrV7VfPoYD2SkNK4FXyq7",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "f32874ef82aed695125140cb3aed43c0b68e1ac2",
+  "sha": "ce907de861456833f1573f94035b14b867548482",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "8579660379",
-  "run_number": "60",
+  "run_id": "8579664117",
+  "run_number": "61",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -25,9 +25,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "f32874ef82aed695125140cb3aed43c0b68e1ac2",
+    "after": "ce907de861456833f1573f94035b14b867548482",
     "base_ref": null,
-    "before": "c26bdb33cd2470addcc0f91535522bc7b90b7911",
+    "before": "f32874ef82aed695125140cb3aed43c0b68e1ac2",
     "commits": [
       {
         "author": {
@@ -41,32 +41,14 @@
           "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "a8ed59798880b4b112bfab9afd397535681200fd",
-        "message": "test environment variable",
-        "timestamp": "2024-04-06T16:35:03+09:00",
-        "tree_id": "30588b2838ad203a79cf43b9a9f7eddf56fb9dc5",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/a8ed59798880b4b112bfab9afd397535681200fd"
-      },
-      {
-        "author": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
-        },
-        "committer": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
-        },
-        "distinct": true,
-        "id": "f32874ef82aed695125140cb3aed43c0b68e1ac2",
+        "id": "ce907de861456833f1573f94035b14b867548482",
         "message": "remove `env[VAR]` syntax, avoid to error Unrecognized named-value",
-        "timestamp": "2024-04-06T16:35:03+09:00",
-        "tree_id": "03e1d6f0f872b5262ca98b496cf98175e4e83fe0",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/f32874ef82aed695125140cb3aed43c0b68e1ac2"
+        "timestamp": "2024-04-06T16:35:54+09:00",
+        "tree_id": "ca5e2cc6fbafed45521e1024bda8531dcf3a27dd",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ce907de861456833f1573f94035b14b867548482"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/c26bdb33cd24...f32874ef82ae",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/f32874ef82ae...ce907de86145",
     "created": false,
     "deleted": false,
     "forced": true,
@@ -82,11 +64,11 @@
         "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "f32874ef82aed695125140cb3aed43c0b68e1ac2",
+      "id": "ce907de861456833f1573f94035b14b867548482",
       "message": "remove `env[VAR]` syntax, avoid to error Unrecognized named-value",
-      "timestamp": "2024-04-06T16:35:03+09:00",
-      "tree_id": "03e1d6f0f872b5262ca98b496cf98175e4e83fe0",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/f32874ef82aed695125140cb3aed43c0b68e1ac2"
+      "timestamp": "2024-04-06T16:35:54+09:00",
+      "tree_id": "ca5e2cc6fbafed45521e1024bda8531dcf3a27dd",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/ce907de861456833f1573f94035b14b867548482"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -175,7 +157,7 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1712388906,
+      "pushed_at": 1712388957,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
       "size": 133,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
@@ -226,16 +208,16 @@
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
-  "workflow_sha": "f32874ef82aed695125140cb3aed43c0b68e1ac2",
+  "workflow_sha": "ce907de861456833f1573f94035b14b867548482",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "__run",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_30643a5a-8180-4fbe-abfd-f90a922f64de",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_30643a5a-8180-4fbe-abfd-f90a922f64de",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_30643a5a-8180-4fbe-abfd-f90a922f64de",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_30643a5a-8180-4fbe-abfd-f90a922f64de",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_30643a5a-8180-4fbe-abfd-f90a922f64de"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_691b287e-be67-4bc3-905f-994b7c4d9528",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_691b287e-be67-4bc3-905f-994b7c4d9528",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_691b287e-be67-4bc3-905f-994b7c4d9528",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_691b287e-be67-4bc3-905f-994b7c4d9528",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_691b287e-be67-4bc3-905f-994b7c4d9528"
 }
 ```
