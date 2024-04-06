@@ -1,20 +1,21 @@
 ```
 {
-  "token": "ghs_XGhNg194kl4iPE85CqXbXO2KaZ7TJn3rjqbU",
+  "token": "ghs_mmqrX1KBYxalhKuobLCnZcyTazNTnF3v0o2k",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
+  "sha": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "5527339451",
-  "run_number": "57",
+  "run_id": "8579628762",
+  "run_number": "58",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
   "repository_visibility": "public",
   "repo-self-hosted-runners-disabled": false,
+  "enterprise-managed-business-id": "",
   "repository_id": "168330342",
   "actor_id": "3108110",
   "actor": "yasuhiroki",
@@ -24,28 +25,10 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
+    "after": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
     "base_ref": null,
-    "before": "6957913b11d9249c93673eabec553d83599de9b7",
+    "before": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
     "commits": [
-      {
-        "author": {
-          "email": "49699333+dependabot[bot]@users.noreply.github.com",
-          "name": "dependabot[bot]",
-          "username": "dependabot[bot]"
-        },
-        "committer": {
-          "email": "noreply@github.com",
-          "name": "GitHub",
-          "username": "web-flow"
-        },
-        "distinct": false,
-        "id": "37c136185e1bee9d156600d9b9540a6cabdd4236",
-        "message": "Bump semver from 5.7.1 to 5.7.2\n\nBumps [semver](https://github.com/npm/node-semver) from 5.7.1 to 5.7.2.\n- [Release notes](https://github.com/npm/node-semver/releases)\n- [Changelog](https://github.com/npm/node-semver/blob/v5.7.2/CHANGELOG.md)\n- [Commits](https://github.com/npm/node-semver/compare/v5.7.1...v5.7.2)\n\n---\nupdated-dependencies:\n- dependency-name: semver\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "timestamp": "2023-07-12T01:21:32Z",
-        "tree_id": "58657e1f326bb7e1249541513225fcb5557fee55",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/37c136185e1bee9d156600d9b9540a6cabdd4236"
-      },
       {
         "author": {
           "email": "yasuhiroki.duck@gmail.com",
@@ -53,19 +36,19 @@
           "username": "yasuhiroki"
         },
         "committer": {
-          "email": "noreply@github.com",
-          "name": "GitHub",
-          "username": "web-flow"
+          "email": "yasuhiroki.duck@gmail.com",
+          "name": "yasuhiroki",
+          "username": "yasuhiroki"
         },
         "distinct": true,
-        "id": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
-        "message": "Merge pull request #30 from yasuhiroki/dependabot/npm_and_yarn/semver-5.7.2\n\nBump semver from 5.7.1 to 5.7.2",
-        "timestamp": "2023-07-12T12:46:19+09:00",
-        "tree_id": "58657e1f326bb7e1249541513225fcb5557fee55",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/5810e5cbe1588f21af8abd6c6514c4d4d5fee880"
+        "id": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
+        "message": "test environment variable",
+        "timestamp": "2024-04-06T16:28:53+09:00",
+        "tree_id": "507592a917e22a85fb5bb468dd8a77393a5cb7ef",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/bc6ef4f62c0f636d56fa8d2aa135e81a3747852b"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/6957913b11d9...5810e5cbe158",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/5810e5cbe158...bc6ef4f62c0f",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -76,16 +59,16 @@
         "username": "yasuhiroki"
       },
       "committer": {
-        "email": "noreply@github.com",
-        "name": "GitHub",
-        "username": "web-flow"
+        "email": "yasuhiroki.duck@gmail.com",
+        "name": "yasuhiroki",
+        "username": "yasuhiroki"
       },
       "distinct": true,
-      "id": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
-      "message": "Merge pull request #30 from yasuhiroki/dependabot/npm_and_yarn/semver-5.7.2\n\nBump semver from 5.7.1 to 5.7.2",
-      "timestamp": "2023-07-12T12:46:19+09:00",
-      "tree_id": "58657e1f326bb7e1249541513225fcb5557fee55",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/5810e5cbe1588f21af8abd6c6514c4d4d5fee880"
+      "id": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
+      "message": "test environment variable",
+      "timestamp": "2024-04-06T16:28:53+09:00",
+      "tree_id": "507592a917e22a85fb5bb468dd8a77393a5cb7ef",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/bc6ef4f62c0f636d56fa8d2aa135e81a3747852b"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -174,9 +157,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1689133580,
+      "pushed_at": 1712388556,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 130,
+      "size": 133,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -225,16 +208,16 @@
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
-  "workflow_sha": "5810e5cbe1588f21af8abd6c6514c4d4d5fee880",
+  "workflow_sha": "bc6ef4f62c0f636d56fa8d2aa135e81a3747852b",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "__run",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_c2efcd74-f439-4f96-8832-98f462c926a4",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_c2efcd74-f439-4f96-8832-98f462c926a4",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_c2efcd74-f439-4f96-8832-98f462c926a4",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_c2efcd74-f439-4f96-8832-98f462c926a4",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_c2efcd74-f439-4f96-8832-98f462c926a4"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_1bfb0e9d-937d-4acb-b74e-2376dd01aba4",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_1bfb0e9d-937d-4acb-b74e-2376dd01aba4"
 }
 ```
