@@ -12,5 +12,9 @@ jobs:
       - name: env
         run: echo ${{ env }}
       - name: custom environment variable
-        run: echo env.NEW_ENV = ${{ env.NEW_ENV }} env[NEW_ENV] = ${{ env[NEW_ENV] }} \$NEW_ENV = $NEW_ENV
+        run: echo env.NEW_ENV = ${{ env.NEW_ENV }} \$NEW_ENV = $NEW_ENV
+      # Unrecognized ERROR
+      # - name: custom environment variable
+        # run: echo env[NEW_ENV] = ${{ env[NEW_ENV] }}
+        # run: echo env[PATH] = ${{ env[PATH] }}
 
