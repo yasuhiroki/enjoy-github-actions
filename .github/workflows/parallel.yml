@@ -18,12 +18,12 @@ jobs:
     - name: Upload
       uses: actions/upload-artifact@master
       with:
-        name: out
+        name: out-${{ matrix.node }}
         path: out
     - name: Download
       uses: actions/download-artifact@master
       with:
-        name: out
+        name: out-${{ matrix.node }}
     - name: Print
       run: |
         ls out
@@ -35,8 +35,9 @@ jobs:
     - name: Download
       uses: actions/download-artifact@master
       with:
-        name: out
+        pattern: out-*
         path: out
+        merge-multiple: true
     - name: Print
       run: |
         ls
