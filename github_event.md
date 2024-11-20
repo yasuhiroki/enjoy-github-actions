@@ -1,15 +1,15 @@
 ```
 {
-  "token": "ghs_DXeN4m8eCpnAMiQH4QsV8uJZYM9ZAH1zL7Zy",
+  "token": "ghs_9tvrmt5P2nY72CxEgsA8cIKSlQq0Vp0dH2s0",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
+  "sha": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "8581823480",
-  "run_number": "64",
+  "run_id": "11934261473",
+  "run_number": "66",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -25,10 +25,28 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
+    "after": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
     "base_ref": null,
-    "before": "04ec39ff5d50c441633900e398d5ef19769f7fc1",
+    "before": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
     "commits": [
+      {
+        "author": {
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "name": "dependabot[bot]",
+          "username": "dependabot[bot]"
+        },
+        "committer": {
+          "email": "noreply@github.com",
+          "name": "GitHub",
+          "username": "web-flow"
+        },
+        "distinct": false,
+        "id": "90527e74acec393193dc42110e13e5cc4ed14d62",
+        "message": "Bump cross-spawn from 6.0.5 to 6.0.6\n\nBumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 6.0.5 to 6.0.6.\n- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/v6.0.6/CHANGELOG.md)\n- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v6.0.5...v6.0.6)\n\n---\nupdated-dependencies:\n- dependency-name: cross-spawn\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2024-11-20T11:55:25Z",
+        "tree_id": "2254ceaa6b39a67f331f2761efd4733aa8935cf2",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/90527e74acec393193dc42110e13e5cc4ed14d62"
+      },
       {
         "author": {
           "email": "yasuhiroki.duck@gmail.com",
@@ -36,22 +54,22 @@
           "username": "yasuhiroki"
         },
         "committer": {
-          "email": "yasuhiroki.duck@gmail.com",
-          "name": "yasuhiroki",
-          "username": "yasuhiroki"
+          "email": "noreply@github.com",
+          "name": "GitHub",
+          "username": "web-flow"
         },
         "distinct": true,
-        "id": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
-        "message": "fix parallle upload artifact breaking changes\n\nref) https://github.com/actions/upload-artifact/blob/ef09cdac3e2d3e60d8ccadda691f4f1cec5035cb/docs/MIGRATION.md",
-        "timestamp": "2024-04-06T23:26:12+09:00",
-        "tree_id": "4aef74f2b39cc3838909d0a804c8a3502b857e2d",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/e4c083ddbee831ca02fb9814453c3b08e45a36c0"
+        "id": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
+        "message": "Merge pull request #31 from yasuhiroki/dependabot/npm_and_yarn/cross-spawn-6.0.6\n\nBump cross-spawn from 6.0.5 to 6.0.6",
+        "timestamp": "2024-11-20T22:21:08+09:00",
+        "tree_id": "2254ceaa6b39a67f331f2761efd4733aa8935cf2",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c085f25b21ddee89c6880cc103672d5b6f4cb6b3"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/04ec39ff5d50...e4c083ddbee8",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/e4c083ddbee8...c085f25b21dd",
     "created": false,
     "deleted": false,
-    "forced": true,
+    "forced": false,
     "head_commit": {
       "author": {
         "email": "yasuhiroki.duck@gmail.com",
@@ -59,16 +77,16 @@
         "username": "yasuhiroki"
       },
       "committer": {
-        "email": "yasuhiroki.duck@gmail.com",
-        "name": "yasuhiroki",
-        "username": "yasuhiroki"
+        "email": "noreply@github.com",
+        "name": "GitHub",
+        "username": "web-flow"
       },
       "distinct": true,
-      "id": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
-      "message": "fix parallle upload artifact breaking changes\n\nref) https://github.com/actions/upload-artifact/blob/ef09cdac3e2d3e60d8ccadda691f4f1cec5035cb/docs/MIGRATION.md",
-      "timestamp": "2024-04-06T23:26:12+09:00",
-      "tree_id": "4aef74f2b39cc3838909d0a804c8a3502b857e2d",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/e4c083ddbee831ca02fb9814453c3b08e45a36c0"
+      "id": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
+      "message": "Merge pull request #31 from yasuhiroki/dependabot/npm_and_yarn/cross-spawn-6.0.6\n\nBump cross-spawn from 6.0.5 to 6.0.6",
+      "timestamp": "2024-11-20T22:21:08+09:00",
+      "tree_id": "2254ceaa6b39a67f331f2761efd4733aa8935cf2",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c085f25b21ddee89c6880cc103672d5b6f4cb6b3"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -153,13 +171,14 @@
         "starred_url": "https://api.github.com/users/yasuhiroki/starred{/owner}{/repo}",
         "subscriptions_url": "https://api.github.com/users/yasuhiroki/subscriptions",
         "type": "User",
-        "url": "https://api.github.com/users/yasuhiroki"
+        "url": "https://api.github.com/users/yasuhiroki",
+        "user_view_type": "public"
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1712413575,
+      "pushed_at": 1732108868,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 142,
+      "size": 158,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -197,7 +216,8 @@
       "starred_url": "https://api.github.com/users/yasuhiroki/starred{/owner}{/repo}",
       "subscriptions_url": "https://api.github.com/users/yasuhiroki/subscriptions",
       "type": "User",
-      "url": "https://api.github.com/users/yasuhiroki"
+      "url": "https://api.github.com/users/yasuhiroki",
+      "user_view_type": "public"
     }
   },
   "server_url": "https://github.com",
@@ -208,16 +228,16 @@
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
-  "workflow_sha": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
+  "workflow_sha": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "__run",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_c5dab349-6772-4407-bdb5-9312a4e758df",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_c5dab349-6772-4407-bdb5-9312a4e758df",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_c5dab349-6772-4407-bdb5-9312a4e758df",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_c5dab349-6772-4407-bdb5-9312a4e758df",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_c5dab349-6772-4407-bdb5-9312a4e758df"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_e527e831-bf29-4118-b42b-a29be24504ae",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_e527e831-bf29-4118-b42b-a29be24504ae",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_e527e831-bf29-4118-b42b-a29be24504ae",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_e527e831-bf29-4118-b42b-a29be24504ae",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_e527e831-bf29-4118-b42b-a29be24504ae"
 }
 ```
