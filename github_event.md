@@ -1,15 +1,15 @@
 ```
 {
-  "token": "ghs_9tvrmt5P2nY72CxEgsA8cIKSlQq0Vp0dH2s0",
+  "token": "ghs_6eRTQcb4kcMt7OdZIl1jh1dwOcBOgv0qBFBM",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
+  "sha": "a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "11934261473",
-  "run_number": "66",
+  "run_id": "13404379769",
+  "run_number": "68",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -25,9 +25,9 @@
   "base_ref": "",
   "event_name": "push",
   "event": {
-    "after": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
+    "after": "a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789",
     "base_ref": null,
-    "before": "e4c083ddbee831ca02fb9814453c3b08e45a36c0",
+    "before": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
     "commits": [
       {
         "author": {
@@ -41,11 +41,11 @@
           "username": "web-flow"
         },
         "distinct": false,
-        "id": "90527e74acec393193dc42110e13e5cc4ed14d62",
-        "message": "Bump cross-spawn from 6.0.5 to 6.0.6\n\nBumps [cross-spawn](https://github.com/moxystudio/node-cross-spawn) from 6.0.5 to 6.0.6.\n- [Changelog](https://github.com/moxystudio/node-cross-spawn/blob/v6.0.6/CHANGELOG.md)\n- [Commits](https://github.com/moxystudio/node-cross-spawn/compare/v6.0.5...v6.0.6)\n\n---\nupdated-dependencies:\n- dependency-name: cross-spawn\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "timestamp": "2024-11-20T11:55:25Z",
-        "tree_id": "2254ceaa6b39a67f331f2761efd4733aa8935cf2",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/90527e74acec393193dc42110e13e5cc4ed14d62"
+        "id": "9921ed8ec7f18f2f3d6d1a7b416f1acd1a6caf98",
+        "message": "Bump @octokit/request and @actions/github\n\nBumps [@octokit/request](https://github.com/octokit/request.js) to 8.4.1 and updates ancestor dependency [@actions/github](https://github.com/actions/toolkit/tree/HEAD/packages/github). These dependencies need to be updated together.\n\n\nUpdates `@octokit/request` from 5.4.10 to 8.4.1\n- [Release notes](https://github.com/octokit/request.js/releases)\n- [Commits](https://github.com/octokit/request.js/compare/v5.4.10...v8.4.1)\n\nUpdates `@actions/github` from 1.1.0 to 6.0.0\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/github/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/github)\n\n---\nupdated-dependencies:\n- dependency-name: \"@octokit/request\"\n  dependency-type: indirect\n- dependency-name: \"@actions/github\"\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2025-02-18T19:36:13Z",
+        "tree_id": "81f49dd93ace8f5cdffaa9bbd42df333d852e780",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/9921ed8ec7f18f2f3d6d1a7b416f1acd1a6caf98"
       },
       {
         "author": {
@@ -59,14 +59,14 @@
           "username": "web-flow"
         },
         "distinct": true,
-        "id": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
-        "message": "Merge pull request #31 from yasuhiroki/dependabot/npm_and_yarn/cross-spawn-6.0.6\n\nBump cross-spawn from 6.0.5 to 6.0.6",
-        "timestamp": "2024-11-20T22:21:08+09:00",
-        "tree_id": "2254ceaa6b39a67f331f2761efd4733aa8935cf2",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c085f25b21ddee89c6880cc103672d5b6f4cb6b3"
+        "id": "a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789",
+        "message": "Merge pull request #32 from yasuhiroki/dependabot/npm_and_yarn/multi-d2cde0b322\n\nBump @octokit/request and @actions/github",
+        "timestamp": "2025-02-19T11:47:13+09:00",
+        "tree_id": "81f49dd93ace8f5cdffaa9bbd42df333d852e780",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/e4c083ddbee8...c085f25b21dd",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/c085f25b21dd...a5760b29bfb6",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -82,11 +82,11 @@
         "username": "web-flow"
       },
       "distinct": true,
-      "id": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
-      "message": "Merge pull request #31 from yasuhiroki/dependabot/npm_and_yarn/cross-spawn-6.0.6\n\nBump cross-spawn from 6.0.5 to 6.0.6",
-      "timestamp": "2024-11-20T22:21:08+09:00",
-      "tree_id": "2254ceaa6b39a67f331f2761efd4733aa8935cf2",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c085f25b21ddee89c6880cc103672d5b6f4cb6b3"
+      "id": "a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789",
+      "message": "Merge pull request #32 from yasuhiroki/dependabot/npm_and_yarn/multi-d2cde0b322\n\nBump @octokit/request and @actions/github",
+      "timestamp": "2025-02-19T11:47:13+09:00",
+      "tree_id": "81f49dd93ace8f5cdffaa9bbd42df333d852e780",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -176,9 +176,9 @@
       },
       "private": false,
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1732108868,
+      "pushed_at": 1739933233,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 158,
+      "size": 167,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -191,7 +191,7 @@
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "topics": [],
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2022-06-27T06:03:37Z",
+      "updated_at": "2024-11-20T13:21:13Z",
       "url": "https://github.com/yasuhiroki/enjoy-github-actions",
       "visibility": "public",
       "watchers": 3,
@@ -228,16 +228,16 @@
   "ref_type": "branch",
   "secret_source": "Actions",
   "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
-  "workflow_sha": "c085f25b21ddee89c6880cc103672d5b6f4cb6b3",
+  "workflow_sha": "a5760b29bfb61cd6e3ac6ee75e6ba3cf38867789",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
   "action": "__run",
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_e527e831-bf29-4118-b42b-a29be24504ae",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_e527e831-bf29-4118-b42b-a29be24504ae",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_e527e831-bf29-4118-b42b-a29be24504ae",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_e527e831-bf29-4118-b42b-a29be24504ae",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_e527e831-bf29-4118-b42b-a29be24504ae"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_669d96f6-ae14-40c2-91fe-a5a04487a557",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_669d96f6-ae14-40c2-91fe-a5a04487a557",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_669d96f6-ae14-40c2-91fe-a5a04487a557",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_669d96f6-ae14-40c2-91fe-a5a04487a557",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_669d96f6-ae14-40c2-91fe-a5a04487a557"
 }
 ```
