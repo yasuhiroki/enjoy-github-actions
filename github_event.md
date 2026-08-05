@@ -1,15 +1,15 @@
 ```
 {
-  "token": "ghs_3fgAtkUIB3cpMygCCvzYZYRTcXg4aF3s71W7",
+  "token": "ghs_15368_eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRobmQiLCJjdHgiOiJNd3R0bWM2bFRMMWM5dGdIZ01rWjJrd3FKS2h5ZGwteW9CSnhsMkVQYW1SS3Y4QnQ2Sm04X2hJIiwiZXhwIjoxNzg1OTc3NzIxLCJpYXQiOjE3ODU5NzQxMjEsImlzcyI6ImdpdGh1YiIsImp0aSI6IjUyMTZkNGQ2LWM1YjEtNGIwYi1iZjU3LWRlZWFlNDJkNjY1YiIsInZlciI6M30.5ZszFVi1T4fc7vx5OgZCnShokw3UAEjIEx19ex_bpsmf1lEm0r_3wvAPvEfOrPJrcbjMdzdtTxucIT7lN39oUg",
   "job": "build",
   "ref": "refs/heads/master",
-  "sha": "2cd91b64f50336d87682ef679bf60145414b2f1b",
+  "sha": "1b7abe25192da4da61b975fd34783a08ad4de6fd",
   "repository": "yasuhiroki/enjoy-github-actions",
   "repository_owner": "yasuhiroki",
   "repository_owner_id": "3108110",
   "repositoryUrl": "git://github.com/yasuhiroki/enjoy-github-actions.git",
-  "run_id": "23090879053",
-  "run_number": "73",
+  "run_id": "31057991633",
+  "run_number": "78",
   "retention_days": "90",
   "run_attempt": "1",
   "artifact_cache_size_limit": "10",
@@ -28,9 +28,9 @@
   "ref_type": "branch",
   "secret_source": "Actions",
   "event": {
-    "after": "2cd91b64f50336d87682ef679bf60145414b2f1b",
+    "after": "1b7abe25192da4da61b975fd34783a08ad4de6fd",
     "base_ref": null,
-    "before": "3ddb898849d0ceff70879e612f0816bf5d57e167",
+    "before": "b3d284f28ab617a7a0a7cc79def031827a99a318",
     "commits": [
       {
         "author": {
@@ -44,11 +44,11 @@
           "username": "web-flow"
         },
         "distinct": false,
-        "id": "49aa917bd5ad556a85ccaad3ad1092285e52ac1b",
-        "message": "Bump undici and @actions/github\n\nBumps [undici](https://github.com/nodejs/undici) to 6.24.1 and updates ancestor dependency [@actions/github](https://github.com/actions/toolkit/tree/HEAD/packages/github). These dependencies need to be updated together.\n\n\nUpdates `undici` from 5.29.0 to 6.24.1\n- [Release notes](https://github.com/nodejs/undici/releases)\n- [Commits](https://github.com/nodejs/undici/compare/v5.29.0...v6.24.1)\n\nUpdates `@actions/github` from 6.0.0 to 9.0.0\n- [Changelog](https://github.com/actions/toolkit/blob/main/packages/github/RELEASES.md)\n- [Commits](https://github.com/actions/toolkit/commits/HEAD/packages/github)\n\n---\nupdated-dependencies:\n- dependency-name: undici\n  dependency-version: 6.24.1\n  dependency-type: indirect\n- dependency-name: \"@actions/github\"\n  dependency-version: 9.0.0\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
-        "timestamp": "2026-03-14T09:26:50Z",
-        "tree_id": "11a9b3881d8c8e477b6e1e34e8c8447a9bcd8030",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/49aa917bd5ad556a85ccaad3ad1092285e52ac1b"
+        "id": "c288347dd5fcda56c21b2fd2fa9a635a7cd4ed1e",
+        "message": "Bump undici from 6.24.1 to 6.28.0\n\nBumps [undici](https://github.com/nodejs/undici) from 6.24.1 to 6.28.0.\n- [Release notes](https://github.com/nodejs/undici/releases)\n- [Commits](https://github.com/nodejs/undici/compare/v6.24.1...v6.28.0)\n\n---\nupdated-dependencies:\n- dependency-name: undici\n  dependency-version: 6.28.0\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "timestamp": "2026-08-05T13:45:09Z",
+        "tree_id": "1e256d2d464a0b4e6e3fc0616df5ef05e57ee135",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/c288347dd5fcda56c21b2fd2fa9a635a7cd4ed1e"
       },
       {
         "author": {
@@ -62,14 +62,14 @@
           "username": "web-flow"
         },
         "distinct": true,
-        "id": "2cd91b64f50336d87682ef679bf60145414b2f1b",
-        "message": "Merge pull request #35 from yasuhiroki/dependabot/npm_and_yarn/multi-d6764de4f5\n\nBump undici and @actions/github",
-        "timestamp": "2026-03-15T00:31:17+09:00",
-        "tree_id": "11a9b3881d8c8e477b6e1e34e8c8447a9bcd8030",
-        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/2cd91b64f50336d87682ef679bf60145414b2f1b"
+        "id": "1b7abe25192da4da61b975fd34783a08ad4de6fd",
+        "message": "Merge pull request #38 from yasuhiroki/dependabot/npm_and_yarn/undici-6.28.0\n\nBump undici from 6.24.1 to 6.28.0",
+        "timestamp": "2026-08-06T08:55:15+09:00",
+        "tree_id": "1e256d2d464a0b4e6e3fc0616df5ef05e57ee135",
+        "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/1b7abe25192da4da61b975fd34783a08ad4de6fd"
       }
     ],
-    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/3ddb898849d0...2cd91b64f503",
+    "compare": "https://github.com/yasuhiroki/enjoy-github-actions/compare/b3d284f28ab6...1b7abe25192d",
     "created": false,
     "deleted": false,
     "forced": false,
@@ -85,11 +85,11 @@
         "username": "web-flow"
       },
       "distinct": true,
-      "id": "2cd91b64f50336d87682ef679bf60145414b2f1b",
-      "message": "Merge pull request #35 from yasuhiroki/dependabot/npm_and_yarn/multi-d6764de4f5\n\nBump undici and @actions/github",
-      "timestamp": "2026-03-15T00:31:17+09:00",
-      "tree_id": "11a9b3881d8c8e477b6e1e34e8c8447a9bcd8030",
-      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/2cd91b64f50336d87682ef679bf60145414b2f1b"
+      "id": "1b7abe25192da4da61b975fd34783a08ad4de6fd",
+      "message": "Merge pull request #38 from yasuhiroki/dependabot/npm_and_yarn/undici-6.28.0\n\nBump undici from 6.24.1 to 6.28.0",
+      "timestamp": "2026-08-06T08:55:15+09:00",
+      "tree_id": "1e256d2d464a0b4e6e3fc0616df5ef05e57ee135",
+      "url": "https://github.com/yasuhiroki/enjoy-github-actions/commit/1b7abe25192da4da61b975fd34783a08ad4de6fd"
     },
     "pusher": {
       "email": "yasuhiroki.duck@gmail.com",
@@ -181,9 +181,9 @@
       "private": false,
       "pull_request_creation_policy": "all",
       "pulls_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/pulls{/number}",
-      "pushed_at": 1773502277,
+      "pushed_at": 1785974115,
       "releases_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/releases{/id}",
-      "size": 184,
+      "size": 199,
       "ssh_url": "git@github.com:yasuhiroki/enjoy-github-actions.git",
       "stargazers": 3,
       "stargazers_count": 3,
@@ -196,7 +196,7 @@
       "teams_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/teams",
       "topics": [],
       "trees_url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions/git/trees{/sha}",
-      "updated_at": "2025-05-16T04:33:16Z",
+      "updated_at": "2026-04-23T02:29:31Z",
       "url": "https://api.github.com/repos/yasuhiroki/enjoy-github-actions",
       "visibility": "public",
       "watchers": 3,
@@ -226,7 +226,7 @@
     }
   },
   "workflow_ref": "yasuhiroki/enjoy-github-actions/.github/workflows/commit_and_push.yml@refs/heads/master",
-  "workflow_sha": "2cd91b64f50336d87682ef679bf60145414b2f1b",
+  "workflow_sha": "1b7abe25192da4da61b975fd34783a08ad4de6fd",
   "repository_id": "168330342",
   "triggering_actor": "yasuhiroki",
   "workspace": "/home/runner/work/enjoy-github-actions/enjoy-github-actions",
@@ -234,10 +234,12 @@
   "event_path": "/home/runner/work/_temp/_github_workflow/event.json",
   "action_repository": "",
   "action_ref": "",
-  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_fb8fd92c-155c-4a6d-b774-820aef17f80e",
-  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_fb8fd92c-155c-4a6d-b774-820aef17f80e",
-  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_fb8fd92c-155c-4a6d-b774-820aef17f80e",
-  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_fb8fd92c-155c-4a6d-b774-820aef17f80e",
-  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_fb8fd92c-155c-4a6d-b774-820aef17f80e"
+  "path": "/home/runner/work/_temp/_runner_file_commands/add_path_c5042306-e865-4223-aa52-19794c7e2bb1",
+  "env": "/home/runner/work/_temp/_runner_file_commands/set_env_c5042306-e865-4223-aa52-19794c7e2bb1",
+  "step_summary": "/home/runner/work/_temp/_runner_file_commands/step_summary_c5042306-e865-4223-aa52-19794c7e2bb1",
+  "state": "/home/runner/work/_temp/_runner_file_commands/save_state_c5042306-e865-4223-aa52-19794c7e2bb1",
+  "output": "/home/runner/work/_temp/_runner_file_commands/set_output_c5042306-e865-4223-aa52-19794c7e2bb1",
+  "artifacts": "/home/runner/work/_temp/_runner_file_commands/artifacts_c5042306-e865-4223-aa52-19794c7e2bb1",
+  "artifacts_list": "/home/runner/work/_temp/_runner_file_commands/artifacts_list_c5042306-e865-4223-aa52-19794c7e2bb1"
 }
 ```
